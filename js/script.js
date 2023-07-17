@@ -13,7 +13,7 @@ getImage();
 const selectRandomImage = function (images) {
     const randomIndex = Math.floor(Math.random() * images.length);
     console.log(randomIndex)
-    const randomIndex = images[randomIndex];
+    const randomImage = images[randomIndex];
 };
 
 const displayImage = function(randomImage) {
